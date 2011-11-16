@@ -2,11 +2,10 @@
 <pluggable type="plugin">
 	<name>Highlighter</name>
 	<url>http://seancoates.com/habari</url>
-	<author>Sean Coates</author>
-	<authorurl>http://seancoates.com/</authorurl>
-	<version stable="false">0.4-dev</version>
+	<author url="http://seancoates.com/">Sean Coates</author>
+	<version>0.4-dev</version>
 	<description>Highlights code syntax using GeSHi</description>
-	<license>Apache License 2.0</license>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	<guid>f8f943bf-b24b-4717-af5f-ff3cbab6d271</guid>
 	<help>
 		<value>
