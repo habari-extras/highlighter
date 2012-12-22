@@ -17,7 +17,7 @@
 				Where 'php' could be any language supported by GeSHi.
 			</p>
 			<p class="warning">
-				Note, you'll also need to grab GeSHi (version 1.0.8.9 tested) from <a href="http://gbnz.com/highlighter">here</a> and
+				Note, you'll also need to grab GeSHi (version 1.0.8.9 tested) from <a href="http://qbnz.com/highlighter/">here</a> and
 				unpack the archive into the plugin's directory (ie: [plugin directory]/geshi/geshi.php should exist).
 			</p>
 			<p>
