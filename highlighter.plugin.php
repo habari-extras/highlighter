@@ -1,4 +1,7 @@
 <?php
+
+	namespace Habari;
+
 /**
  * Highlighter Plugin
  *
@@ -94,7 +97,7 @@ class HighlighterFormatPlugin extends Format
 				
 				$classes = array_filter( explode( ' ', trim( str_replace( 'highlight', '', $classAttr ) ) ) ); // ugly, refactor
 				
-				$geshi = new Geshi( trim( $sliceValue ), isset( $classes[0] ) ? $classes[0] : 'php', HighlightPlugin::$geshi_path . '/geshi/' );
+				$geshi = new \Geshi( trim( $sliceValue ), isset( $classes[0] ) ? $classes[0] : 'php', HighlightPlugin::$geshi_path . '/geshi/' );
 				$geshi->set_header_type( GESHI_HEADER_PRE );
 				$geshi->set_overall_class( 'geshicode' );
 				$output = @$geshi->parse_code(); // @ is slow, but geshi is full of E_NOTICE
